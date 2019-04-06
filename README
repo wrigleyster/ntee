@@ -1,0 +1,24 @@
+NTEE(1)                     General Commands Manual                    NTEE(1)
+
+
+
+NAME
+       ntee - a cross breed of netcat and tee
+
+SYNOPSIS
+       ntee [-v] -l listen_port domain:port
+
+DESCRIPTION
+       ntee  inserts itself between a client and a host, and echoes all commu‐
+       nication to stdout.
+
+OPTIONS
+       -v     verbose output
+
+       -l listen_port
+              specify port to listen on (for client to connect to) domain:port
+              specify domain and port to forward messages to
+
+
+
+                                                                       NTEE(1)

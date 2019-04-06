@@ -1,0 +1,20 @@
+.TH NTEE 1
+.SH NAME
+ntee \- a cross breed of netcat and tee
+.SH SYNOPSIS
+.B ntee
+[\-v] \-l\ \fIlisten_port domain\fR:\fIport
+.SH DESCRIPTION
+.B ntee
+inserts itself between a client and a host, and echoes all communication to
+stdout.
+.SH OPTIONS
+.TP
+.BR \-v
+verbose output
+.TP
+.BR \-l\ \fIlisten_port
+specify port to listen on (for client to connect to)
+.Tp
+.IR domain\fR:\fIport
+specify domain and port to forward messages to
